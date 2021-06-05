@@ -1,0 +1,7 @@
+POST http://localhost:5000/postExTopic
+
+{
+    "exTopicId" : 1,
+    "exTopicNameVn" : "Bài tập nghe",
+    "exTopicNameEn" : "Listening"
+}

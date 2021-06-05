@@ -1,0 +1,21 @@
+POST http://localhost:5000/postExSlide
+
+{
+    "exSlideId" : 1,
+    "type" : "listeningImg/listeningNoImg/readingImg/readingNoImg",
+    "content" : [
+        {
+            "id" : 0,
+            "question" : "...",
+            "img" : "...",
+            "audio" : "...",
+            "choice1" : "...",
+            "choice2" : "...",
+            "choice3" : "...",
+            "choice4" : "...",
+            "answer" : "..."
+        }
+    ]
+    "exTopicId" : 1,
+    "exLessonId" : 1
+}

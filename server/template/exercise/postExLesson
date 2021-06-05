@@ -1,0 +1,10 @@
+POST http://localhost:5000/postExLesson
+
+{
+    "exTopicId" : 1,
+    "exLessonId" : 1,
+    "exLessonNameVn" : "Miêu tả bức tranh",
+    "exLessonNameEn" : "Picture description",
+    "type" : "listeningImg"
+    "maxScore" : "60"
+}

@@ -1,0 +1,7 @@
+POST http://lcoalhost:5000/register
+Content-Type: application/json
+{
+    "username" : "trung2303",
+    "password" : "12345678",
+    "email" : "trung23031999@gmail.com" 
+}

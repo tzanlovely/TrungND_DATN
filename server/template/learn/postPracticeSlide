@@ -1,0 +1,35 @@
+POST http://localhost:5000/postPractice
+
+{
+    "slideId" : 1,
+    "type" : "verbForm",
+    "content" : [
+        {
+            "title" : "Supply the correct verb form: The simple present tense or The present continuous tense",
+            "detail" : [
+                {
+                    "id" : 0,
+                    "question" : "Be quiet! The baby (sleep)",
+                    "answer" : "is sleeping"
+                },
+                {
+                    "id" : 1,
+                    "question" : "It (be) often hot in summer",
+                    "answer" : "is"
+                },
+                {
+                    "id" : 2,
+                    "question" : "My mother sometimes (buy) vegetables at this market",
+                    "answer" : "buys"
+                },
+                {
+                    "id" : 3,
+                    "question" : "Look! A man (run) after the train. He want to catch it",
+                    "answer" : "is running"
+                }
+            ]
+        }
+    ],
+    "topicId" : 1,
+    "lessonId" : 4
+}

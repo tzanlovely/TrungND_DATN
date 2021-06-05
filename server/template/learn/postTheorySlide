@@ -1,0 +1,52 @@
+POST http://localhost:5000/postTheory
+
+{
+    "slideId" : 1,
+    "type" : "theory",
+    "content" : [
+        {
+            "title" : "Cấu trúc (Form)",
+            "detail" : [
+                {
+                    "line" : "I, We, They, You + have + part participle (V3)",
+                    "example" : ""
+                },
+                {
+                    "line" : "He, She, It + has + part participle (V3)",
+                    "example" : ""
+                }
+            ]
+        }
+    ],
+    "topicId" : 1,
+    "lessonId" : 3
+}
+
+{
+    "slideId" : 3,
+    "type" : "practice",
+    "content" : [
+        {
+            "title" : "Supply the correct verb form",
+            "detail" : [
+                {
+                    "id" : 0,
+                    "question" : "They (live) in England",
+                    "answer" : "live"
+                },
+                {
+                    "id" : 1,
+                    "question" : "I (get) up early every morning",
+                    "answer" : "get"
+                },
+                {
+                    "id" : 2,
+                    "question" : "I've got the tour details here. We (spend) three days in Rome",
+                    "answer" : "spend"
+                }
+            ]
+        }
+    ],
+    "topicId" : 1,
+    "lessonId" : 1
+}

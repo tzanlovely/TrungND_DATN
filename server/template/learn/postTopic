@@ -1,0 +1,8 @@
+POST http://localhost:5000/postTopic
+
+{
+    "topicId" : 3,
+    "image" : "test",
+    "topicNameVn" : "The part of speech",
+    "topicNameEn" : "Các thì
+}
